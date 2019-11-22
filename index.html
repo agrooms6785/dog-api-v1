@@ -10,7 +10,6 @@
   <div class="container">
     <h1>Amanda's dog image generator</h1>
       <fieldset>
-        <legend>add caption</legend>
         <form>
           <label for="number-selected">Pick any number 1-50</label>
             <select class="dog-num" name="number-of-dogs" required>
@@ -65,12 +64,10 @@
                 <option value="49">49</option>
                 <option value="50">50</option>
             </select><br />
-            <button type="button" name="button">Click for dog pics!</button>
+            <button type="button" name="button" class="js-submit-button">Click for dog pics!</button>
         </form>
       </fieldset>
-      <section class="results hidden">
-        <h2>Look at these cute pictures of dogs!</h2>
-        <img class="img-results" alt="placeholder">
+      <section class="results">
       </section>
     </div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" charset="utf-8"></script>

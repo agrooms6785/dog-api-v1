@@ -12,6 +12,7 @@ body {
   margin: 0 auto;
 }
 
-.hidden {
-  display: none;
+.img-results {
+  max-width: 400px;
+  height: auto;
 }
