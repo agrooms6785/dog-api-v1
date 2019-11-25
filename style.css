@@ -16,3 +16,21 @@ body {
   max-width: 400px;
   height: auto;
 }
+
+fieldset {
+  display: inline-block;
+  background-color: #cad8de;
+  padding: 2%
+}
+
+.dog-question {
+  font-size: 20px;
+  margin: 5px;
+}
+
+
+.js-submit-button {
+  font-size: 16px;
+  margin: 10px;
+  padding: 5px;
+}
